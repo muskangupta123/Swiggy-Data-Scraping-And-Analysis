@@ -83,10 +83,3 @@ Contributions are welcome! Please feel free to fork this repository and submit p
 
 ## License
 This project is licensed under the MIT License - see the `LICENSE` file for details.
-
-## Contact
-For any questions or issues, please contact [your-email@example.com](mailto:your-email@example.com).
-
----
-
-Make sure to replace placeholders like `yourusername` and `your-email@example.com` with your actual GitHub username and contact information. This README provides a clear guide for anyone interested in exploring or contributing to your project.
