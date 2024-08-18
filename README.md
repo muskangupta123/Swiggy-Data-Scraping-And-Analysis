@@ -4,9 +4,9 @@
 This repository contains the code and datasets used for a data-driven analysis of Swiggy's delivery operations. The project explores key aspects such as cuisine preferences, rating distribution, and delivery times to uncover insights that can help improve service efficiency and customer satisfaction.
 
 ## Project Structure
-- `datasets/`: Contains the datasets used for analysis, including the scraped data.
-- `scraping/`: Contains the scripts used for scraping data from Swiggy's website.
-- `notebooks/`: Jupyter notebooks containing the analysis and visualizations.
+- `Swiggy DataSet/`: Contains the datasets used for analysis, including the scraped data.
+- `Swiggy Data Scrape/`: Contains the scripts used for scraping data from Swiggy's website.
+- `Swiggy Data Analysis/`: Jupyter notebooks containing the analysis and visualizations.
 - `README.md`: Project documentation.
 
 ## Getting Started
@@ -27,8 +27,7 @@ This repository contains the code and datasets used for a data-driven analysis o
 ### Installation
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/swiggy-delivery-analysis.git
-   cd swiggy-delivery-analysis
+   git clone https://github.com/muskangupta123/Swiggy-Data-Scraping-And-Analysis.git
    ```
 
 2. **Install Dependencies:**
@@ -41,18 +40,18 @@ This repository contains the code and datasets used for a data-driven analysis o
    - Place it in your system’s PATH or specify its path in the Selenium script.
 
 ### Data Scraping
-The `scraping/` directory contains the script used to scrape restaurant data from Swiggy. This script leverages `BeautifulSoup` and `Selenium` for handling static and dynamic content, respectively.
+The `Swiggy Data Scrape/` directory contains the script used to scrape restaurant data from Swiggy. This script leverages `BeautifulSoup` and `Selenium` for handling static and dynamic content, respectively.
 
 **Usage:**
 1. Ensure ChromeDriver is correctly set up.
 2. Run the scraping script:
    ```bash
-   python scraping/swiggy_scrape.py
+   python Swiggy Data Scrape/swiggy_scrape.py
    ```
-3. The scraped data will be saved in the `datasets/` directory.
+3. The scraped data will be saved in the `Swiggy DataSet/` directory.
 
 ### Data Analysis
-The analysis is performed using Jupyter notebooks located in the `notebooks/` directory. The key aspects explored include:
+The analysis is performed using Jupyter notebooks located in the `Swiggy Data Analysis/` directory. The key aspects explored include:
 - **Cuisine Analysis:** Identifying popular food choices among customers.
 - **Rating Distribution:** Understanding customer satisfaction based on restaurant ratings.
 - **Delivery Time Analysis:** Evaluating the efficiency of the delivery service and its impact on ratings.
@@ -62,7 +61,7 @@ The analysis is performed using Jupyter notebooks located in the `notebooks/` di
    ```bash
    jupyter notebook
    ```
-2. Open and run the notebooks located in the `notebooks/` directory.
+2. Open and run the notebooks located in the `Swiggy Data Analysis/` directory.
 
 ### Results
 The analysis revealed insights such as:
