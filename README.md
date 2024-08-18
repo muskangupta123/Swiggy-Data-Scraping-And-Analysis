@@ -46,7 +46,7 @@ The `Swiggy Data Scrape/` directory contains the script used to scrape restauran
 1. Ensure ChromeDriver is correctly set up.
 2. Run the scraping script:
    ```bash
-   python Swiggy Data Scrape/swiggy_scrape.py
+   python Swiggy Data Scrape/SwiggyDataScrape.py
    ```
 3. The scraped data will be saved in the `Swiggy DataSet/` directory.
 
