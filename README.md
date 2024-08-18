@@ -24,31 +24,6 @@ This repository contains the code and datasets used for a data-driven analysis o
   - `seaborn`
   - `scikit-learn`
 
-### Installation
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/muskangupta123/Swiggy-Data-Scraping-And-Analysis.git
-   ```
-
-2. **Install Dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Set Up ChromeDriver:**
-   - Download ChromeDriver from [here](https://sites.google.com/chromium.org/driver/).
-   - Place it in your system’s PATH or specify its path in the Selenium script.
-
-### Data Scraping
-The `Swiggy Data Scrape/` directory contains the script used to scrape restaurant data from Swiggy. This script leverages `BeautifulSoup` and `Selenium` for handling static and dynamic content, respectively.
-
-**Usage:**
-1. Ensure ChromeDriver is correctly set up.
-2. Run the scraping script:
-   ```bash
-   python Swiggy Data Scrape/SwiggyDataScrape.py
-   ```
-3. The scraped data will be saved in the `Swiggy DataSet/` directory.
 
 ### Data Analysis
 The analysis is performed using Jupyter notebooks located in the `Swiggy Data Analysis/` directory. The key aspects explored include:
@@ -56,12 +31,6 @@ The analysis is performed using Jupyter notebooks located in the `Swiggy Data An
 - **Rating Distribution:** Understanding customer satisfaction based on restaurant ratings.
 - **Delivery Time Analysis:** Evaluating the efficiency of the delivery service and its impact on ratings.
 
-**Usage:**
-1. Start Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
-2. Open and run the notebooks located in the `Swiggy Data Analysis/` directory.
 
 ### Results
 The analysis revealed insights such as:
